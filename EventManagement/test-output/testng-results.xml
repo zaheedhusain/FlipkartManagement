@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-25T17:29:42 IST" name="Default suite" finished-at="2025-07-25T17:31:13 IST" duration-ms="90737">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-07-25T17:29:42 IST" name="Default test" finished-at="2025-07-25T17:31:13 IST" duration-ms="90737">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:29:42 IST" name="setUpClass" finished-at="2025-07-25T17:29:43 IST" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f3e9acc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:29:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:29:56 IST" duration-ms="13291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful booking with valid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Booking Form Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:29:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:30:03 IST" duration-ms="7195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submission blocked when required fields are empty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Booking Form Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:30:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:30:23 IST" duration-ms="19976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Booking with invalid input formats"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Booking Form Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:30:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:30:31 IST" duration-ms="8091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Form submission with valid input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Us Form Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:30:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:30:39 IST" duration-ms="8155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Form submission with empty input"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Contact Us Form Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:30:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:30:48 IST" duration-ms="8853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking navigation menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:30:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:30:56 IST" duration-ms="7669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking navigation menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:30:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:31:04 IST" duration-ms="7626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking navigation menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:31:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-25T17:31:13 IST" duration-ms="8886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking navigation menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigation functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@7770f470]" started-at="2025-07-25T17:31:13 IST" name="tearDownClass" finished-at="2025-07-25T17:31:13 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
